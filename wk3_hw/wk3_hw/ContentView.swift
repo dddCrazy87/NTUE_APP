@@ -27,6 +27,13 @@ struct ContentView: View {
                     }
                 }
                 
+                VStack {
+                    Spacer()
+                    Image("bottom_bar")
+                        .resizable()
+                        .frame(width: 360, height: 56)
+                }
+                
                 if isMenuOpen {
                     Color.black.opacity(0.5)
                         .onTapGesture {
