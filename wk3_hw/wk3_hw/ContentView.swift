@@ -1,24 +1,45 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    
+    @State private var isMenuOpen = false
+    
     var body: some View {
         
-        NavigationView {
-            VStack {
+        NavigationStack {
+            
+            ZStack {
                 
-                Text("Popular Books")
-                    .font(.title)
-                    .padding()
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack {
+                        Text("Popular Books")
+                            .font(.title)
+                            .padding()
 
-                BookView(books: popular_books)
+                        BookView(books: popular_books)
+                    }
+                }
+                
+                if isMenuOpen {
+                    Color.black.opacity(0.5)
+                        .onTapGesture {
+                            withAnimation {
+                                self.isMenuOpen.toggle()
+                            }
+                        }
+
+                    MenuView()
+                        .transition(.move(edge: .leading))
+                }
             }
             .navigationTitle("")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
-                        
+                        withAnimation {
+                            self.isMenuOpen.toggle()
+                        }
                     } label: {
                         Image(systemName: "line.horizontal.3")
                     }
@@ -32,10 +53,6 @@ struct ContentView: View {
                 }
             }
         }
-        
-        
-        
-        
     }
 }
 

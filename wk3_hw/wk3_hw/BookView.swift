@@ -28,3 +28,7 @@ struct BookView: View {
         }
     }
 }
+
+#Preview {
+    BookView(books: popular_books)
+}
