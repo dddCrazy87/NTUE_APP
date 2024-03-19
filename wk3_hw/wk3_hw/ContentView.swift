@@ -18,6 +18,13 @@ struct ContentView: View {
 
                         BookView(books: popular_books)
                     }
+                    VStack {
+                        Text("Newest Books")
+                            .font(.title)
+                            .padding()
+
+                        NewestBookView(books: newest_books)
+                    }
                 }
                 
                 if isMenuOpen {
