@@ -17,6 +17,7 @@
 		42DE5A582BA9F0EC0002ED24 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE5A572BA9F0EC0002ED24 /* BookView.swift */; };
 		42DE5A5A2BA9F65F0002ED24 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE5A592BA9F65F0002ED24 /* BookData.swift */; };
 		42DE5A5C2BA9F8590002ED24 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE5A5B2BA9F8590002ED24 /* MenuView.swift */; };
+		42DE5ACC2BAA1ADB0002ED24 /* NewestBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE5ACB2BAA1ADB0002ED24 /* NewestBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		42DE5A572BA9F0EC0002ED24 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		42DE5A592BA9F65F0002ED24 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 		42DE5A5B2BA9F8590002ED24 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		42DE5ACB2BAA1ADB0002ED24 /* NewestBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewestBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				42DE5A2F2BA9EFCB0002ED24 /* ContentView.swift */,
 				42DE5A5B2BA9F8590002ED24 /* MenuView.swift */,
 				42DE5A592BA9F65F0002ED24 /* BookData.swift */,
+				42DE5ACB2BAA1ADB0002ED24 /* NewestBookView.swift */,
 				42DE5A572BA9F0EC0002ED24 /* BookView.swift */,
 				42DE5A312BA9EFCC0002ED24 /* Assets.xcassets */,
 				42DE5A332BA9EFCC0002ED24 /* Preview Content */,
@@ -269,6 +272,7 @@
 				42DE5A5C2BA9F8590002ED24 /* MenuView.swift in Sources */,
 				42DE5A582BA9F0EC0002ED24 /* BookView.swift in Sources */,
 				42DE5A302BA9EFCB0002ED24 /* ContentView.swift in Sources */,
+				42DE5ACC2BAA1ADB0002ED24 /* NewestBookView.swift in Sources */,
 				42DE5A5A2BA9F65F0002ED24 /* BookData.swift in Sources */,
 				42DE5A2E2BA9EFCB0002ED24 /* wk3_hwApp.swift in Sources */,
 			);
