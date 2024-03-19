@@ -19,10 +19,11 @@ struct NewestBookItem: Identifiable {
     let title: String
     let score: Int
     let author: String
+    let info: String
 }
 
 let newest_books: [NewestBookItem] = [
-    NewestBookItem(imageName: "4", title: "Book 3", score: 4, author: "Author 3"),
-    NewestBookItem(imageName: "5", title: "Book 3", score: 3, author: "Author 3"),
-    NewestBookItem(imageName: "6", title: "Book 3", score: 3, author: "Author 3"),
+    NewestBookItem(imageName: "4", title: "Yves Saint Laurent", score: 4, author: "Suzy Menkes ", info: "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."),
+    NewestBookItem(imageName: "5", title: "The Book of Signs", score: 3, author: "Rudolf Koch ", info: "The Book of Signs intro"),
+    NewestBookItem(imageName: "6", title: "Stitched Up", score: 3, author: "Tansy E. Hoskins", info: "Stitched Up intro"),
 ]

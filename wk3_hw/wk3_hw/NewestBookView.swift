@@ -1,10 +1,3 @@
-//
-//  NewestBookView.swift
-//  wk3_hw
-//
-//  Created by 許昀韋 on 2024/3/20.
-//
-
 import SwiftUI
 
 struct NewestBookView: View {
@@ -15,10 +8,14 @@ struct NewestBookView: View {
             HStack(spacing: 20) {
                 ForEach(books) { book in
                     VStack {
-                        Image(book.imageName)
-                            .resizable()
-                            .frame(width: 140, height: 200)
+                        NavigationLink {
+                            BookInfoView(image: book.imageName, title: book.title, auther: book.author, info: book.info, score: book.score)
+                        } label: {
+                            Image(book.imageName)
+                                .resizable()
+                                .frame(width: 140, height: 200)
                             .cornerRadius(10)
+                        }
                         HStack {
                             ForEach(0..<book.score) { _ in
                                 Image("star_filled")
