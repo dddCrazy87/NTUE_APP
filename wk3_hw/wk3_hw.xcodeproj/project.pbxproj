@@ -14,6 +14,8 @@
 		42DE5A3F2BA9EFCC0002ED24 /* wk3_hwTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE5A3E2BA9EFCC0002ED24 /* wk3_hwTests.swift */; };
 		42DE5A492BA9EFCC0002ED24 /* wk3_hwUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE5A482BA9EFCC0002ED24 /* wk3_hwUITests.swift */; };
 		42DE5A4B2BA9EFCC0002ED24 /* wk3_hwUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE5A4A2BA9EFCC0002ED24 /* wk3_hwUITestsLaunchTests.swift */; };
+		42DE5A582BA9F0EC0002ED24 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE5A572BA9F0EC0002ED24 /* BookView.swift */; };
+		42DE5A5A2BA9F65F0002ED24 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE5A592BA9F65F0002ED24 /* BookData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		42DE5A442BA9EFCC0002ED24 /* wk3_hwUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wk3_hwUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DE5A482BA9EFCC0002ED24 /* wk3_hwUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wk3_hwUITests.swift; sourceTree = "<group>"; };
 		42DE5A4A2BA9EFCC0002ED24 /* wk3_hwUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wk3_hwUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42DE5A572BA9F0EC0002ED24 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		42DE5A592BA9F65F0002ED24 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				42DE5A2D2BA9EFCB0002ED24 /* wk3_hwApp.swift */,
 				42DE5A2F2BA9EFCB0002ED24 /* ContentView.swift */,
+				42DE5A592BA9F65F0002ED24 /* BookData.swift */,
+				42DE5A572BA9F0EC0002ED24 /* BookView.swift */,
 				42DE5A312BA9EFCC0002ED24 /* Assets.xcassets */,
 				42DE5A332BA9EFCC0002ED24 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DE5A582BA9F0EC0002ED24 /* BookView.swift in Sources */,
 				42DE5A302BA9EFCB0002ED24 /* ContentView.swift in Sources */,
+				42DE5A5A2BA9F65F0002ED24 /* BookData.swift in Sources */,
 				42DE5A2E2BA9EFCB0002ED24 /* wk3_hwApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
