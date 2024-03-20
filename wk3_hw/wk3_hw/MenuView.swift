@@ -16,23 +16,44 @@ struct MenuView: View {
                     .padding()
                 
                 VStack(alignment: .leading) {
-                    HStack {
-                        Image(systemName: "house")
-                        Text("Home")
-                            .font(.system(size: 14))
-                            .padding()
+                    Button {
+                        
+                    }label: {
+                        HStack {
+                            Image("sidehome")
+                                .resizable()
+                                .frame(width: 24, height: 24)
+                            Text("Home")
+                                .font(.system(size: 14))
+                                .padding()
+                                .foregroundColor(Color(red: 0.4, green: 0.4, blue: 0.4))
+                        }
                     }
-                    HStack {
-                        Image(systemName: "person")
-                        Text("Account")
-                            .font(.system(size: 14))
-                            .padding()
+                    Button {
+                        
+                    }label: {
+                        HStack {
+                            Image("sideperson")
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                            Text("Account")
+                                .font(.system(size: 14))
+                                .padding()
+                                .foregroundColor(Color(red: 0.4, green: 0.4, blue: 0.4))
+                        }
                     }
-                    HStack {
-                        Image(systemName: "gear")
-                        Text("Setting")
-                            .font(.system(size: 14))
-                            .padding()
+                    Button {
+                        
+                    }label: {
+                        HStack {
+                            Image("sidesetting")
+                                .resizable()
+                                .frame(width: 24, height: 24)
+                            Text("Setting")
+                                .font(.system(size: 14))
+                                .padding()
+                                .foregroundColor(Color(red: 0.4, green: 0.4, blue: 0.4))
+                        }
                     }
                 }
                 .padding()
